@@ -371,3 +371,29 @@ button[type="reset"]:hover {
     color: #f39c12;
     text-decoration: underline;
 }
+@media screen and (max-width:1200px) {
+    .main {
+        width: 1200px;
+        background-color: green;
+    }
+    .media {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main {width: 600px; background-color: #e17055;}
+    iframe {width: 400px;}
+    .menu {
+        width: 200px;
+        margin-left: 160px;
+        font-size: small;  
+    }
+    .menu ul {
+        justify-content: center;
+        gap: 10px;
+    }
+    .section1 h1 {
+        font-size: 50px;
+    }
+}
