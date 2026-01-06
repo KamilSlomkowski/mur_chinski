@@ -396,4 +396,10 @@ button[type="reset"]:hover {
     .section1 h1 {
         font-size: 50px;
     }
+    .media {
+        display: none;
+    }
+    .formularz {
+        display: none;
 }
+
